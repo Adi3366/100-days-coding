@@ -7,12 +7,13 @@ int main() {
     scanf("%d", &n);
 
     while (n != 0) {
-        digit = n % 10;     // extract last digit
-        sum += digit;       // add to sum
-        n = n / 10;         // remove last digit
+        digit = n % 10;
+        sum += digit;
+        n = n / 10;
     }
 
     printf("Sum of digits = %d\n", sum);
 
     return 0;
 }
+
