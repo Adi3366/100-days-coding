@@ -12,14 +12,13 @@ int main() {
     }
 
     while (n > 0) {
-        binary[i] = n % 2;   // store remainder (0 or 1)
-        n = n / 2;           // reduce number
+        binary[i] = n % 2;
+        n = n / 2;
         i++;
     }
 
     printf("Binary = ");
 
-    // print binary in reverse (most significant bit first)
     for (int j = i - 1; j >= 0; j--) {
         printf("%d", binary[j]);
     }
@@ -27,3 +26,4 @@ int main() {
     printf("\n");
     return 0;
 }
+
