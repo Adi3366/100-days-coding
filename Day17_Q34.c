@@ -11,7 +11,7 @@ int main() {
         return 0;
     }
 
-    for (i = 2; i * i <= n; i++) {  // check up to sqrt(n)
+    for (i = 2; i * i <= n; i++) {
         if (n % i == 0) {
             isPrime = 0;
             break;
@@ -22,3 +22,4 @@ int main() {
         printf("%d is a PRIME number.\n", n);
     else
         printf("%d is NOT a prime num
+
