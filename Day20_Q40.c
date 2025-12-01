@@ -4,7 +4,7 @@ int main() {
     char binary[100];
 
     printf("Enter a binary number: ");
-    scanf("%s", binary);   // read binary as a string
+    scanf("%s", binary);
 
     printf("1's Complement = ");
 
@@ -22,3 +22,4 @@ int main() {
     printf("\n");
     return 0;
 }
+
