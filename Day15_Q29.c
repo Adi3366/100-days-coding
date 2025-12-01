@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    long long fact = 1;   // factorial grows fast, so use long long
+    long long fact = 1;
 
     printf("Enter a number: ");
     scanf("%d", &n);
@@ -13,3 +13,4 @@ int main() {
     }
 
     for (int i = 1; i <= n
+
