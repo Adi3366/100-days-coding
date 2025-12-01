@@ -6,7 +6,6 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    // Euclidean algorithm
     while (b != 0) {
         temp = b;
         b = a % b;
@@ -17,3 +16,4 @@ int main() {
 
     return 0;
 }
+
