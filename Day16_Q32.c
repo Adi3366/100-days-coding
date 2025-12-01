@@ -6,12 +6,12 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    original = n;  // store original number
+    original = n;
 
     while (n != 0) {
-        digit = n % 10;        // extract last digit
-        rev = rev * 10 + digit; // build reversed number
-        n = n / 10;             // remove last digit
+        digit = n % 10;
+        rev = rev * 10 + digit; 
+        n = n / 10;
     }
 
     if (original == rev)
@@ -21,3 +21,4 @@ int main() {
 
     return 0;
 }
+
