@@ -10,14 +10,12 @@ int main() {
 
     original = n;
 
-    // Count digits
     int temp = n;
     while (temp != 0) {
         count++;
         temp /= 10;
     }
 
-    // Calculate sum of digits raised to count
     temp = n;
     while (temp != 0) {
         digit = temp % 10;
@@ -32,3 +30,4 @@ int main() {
 
     return 0;
 }
+
