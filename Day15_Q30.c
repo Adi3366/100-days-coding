@@ -7,5 +7,6 @@ int main() {
     scanf("%d", &n);
 
     while (n != 0) {
-        digit = n % 10;          // extract last digit
-        rev = rev * 10 + digit;  // build*
+        digit = n % 10;
+        rev = rev * 10 + digit;
+
