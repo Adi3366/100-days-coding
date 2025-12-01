@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &a);
 
     printf("Enter an operator (+, -, *, /, %): ");
-    scanf(" %c", &op);   // Space before %c avoids input issues
+    scanf(" %c", &op);
 
     printf("Enter second number: ");
     scanf("%d", &b);
@@ -46,3 +46,4 @@ int main() {
 
     return 0;
 }
+
