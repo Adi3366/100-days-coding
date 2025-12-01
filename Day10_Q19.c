@@ -6,7 +6,6 @@ int main() {
     printf("Enter three sides of a triangle: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    // Check if triangle is valid using triangle inequality
     if (a + b > c && a + c > b && b + c > a) {
 
         if (a == b && b == c) {
@@ -25,3 +24,4 @@ int main() {
 
     return 0;
 }
+
